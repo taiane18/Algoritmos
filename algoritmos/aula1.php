@@ -16,7 +16,6 @@
 		RECURSOS - variáveis especiais do PHP que referenciam recursos externos
 		NULO (null) - variável sem nenhum valor, porém é diferente de ""
 		*/
-		
 		$idade =17;
 		$altura = 1.75;
 		$nome = "Taiane Maíra";
