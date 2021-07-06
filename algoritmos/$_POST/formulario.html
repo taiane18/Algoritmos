@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulário</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<form role="form" action="processa.php" name="formulario" method="post">
+						<div class="form-group">
+					 		<label>Nome:</label>
+							<input type="text" name="nome"/><br>
+						</div>
+						<div class="form-group">
+					 		<label>Sexo:</label>
+							<input type="radio" name="sexo" value="masculino"/>Masculino
+							<input type="radio" name="sexo" value="feminino"/>Feminino<br>
+						</div>
+						<div class="form-group">
+					 		<label>Cor dos Olhos:</label>
+							<select name="corolhos">
+								<option value="azul">Azul</option>
+								<option value="verde">Verde</option>
+								<option value="castanho">Castanho</option>
+								<option value="preto">Preto</option>
+								<option value="mel">Castanho Claro</option>
+							</select>
+						</div>
+						<div class="checkbox">
+							<label>Marque os que se aplicam:</label>
+							<input type="checkbox" name="coisa[]" value="altura" />Acima de 1,83 de altura
+							<input type="checkbox" name="coisa[]" value="peso" />Acima de 91 kg<br>
+						</div>
+						<div class="form-group">
+					 		<label>Descreva sua capacidade física:</label><br>
+							<textarea name="msg" rows="12" cols="40">
+							</textarea>
+						</div>
+						<button name="btn" type="submit" value="btn">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
